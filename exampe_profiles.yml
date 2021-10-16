@@ -1,0 +1,13 @@
+jaffle_shop:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: # your host
+      user: # your user
+      password: # your password
+      port: 5432
+      dbname: # your db
+      schema: # your schema
+      threads: 1
+      keepalives_idle: 0 # default 0, indicating the system default
