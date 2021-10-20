@@ -1,7 +1,8 @@
 ## Repository with code examples for the Sydney dbt meetup of October 2021: Let's talk orchestration. An Intro to scheduling dbt with Dagster.
 
-### Slides for the talk
-[Slides](./Sydney%20dbt%20meetup%20-%20Benoit%20Perigaud%20-%20dbt%20and%20Dagster.pdf)
+### Slides and recording for the talk
+- [Slides](./Sydney%20dbt%20meetup%20-%20Benoit%20Perigaud%20-%20dbt%20and%20Dagster.pdf)
+- [Youtube recording](https://www.youtube.com/watch?v=FkCEBFY_6ow)
 
 ### Setup a virtual environment
 Create a Python virtual environment (through conda or the env module) and install all packages from the requirements.txt: `pip install -r /path/to/requirements.txt`
