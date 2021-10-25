@@ -4,6 +4,13 @@
 - [Slides](./Sydney%20dbt%20meetup%20-%20Benoit%20Perigaud%20-%20dbt%20and%20Dagster.pdf)
 - [Youtube recording](https://www.youtube.com/watch?v=FkCEBFY_6ow)
 
+### Dagster DAGs examples
+The following Dagster examples are provided in the code in this repo:
+- Usage of the dagster-dbt module to do `dbt run` and `dbt test`
+- Definition of presets to include/exclude models
+- Setup of pipelines with different schedules
+- Usage of an asset sensor on a dbt models to trigger another pipeline
+
 ### Setup a virtual environment
 Create a Python virtual environment (through conda or the env module) and install all packages from the requirements.txt: `pip install -r /path/to/requirements.txt`
 
